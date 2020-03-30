@@ -39,7 +39,7 @@ baseurl: "/datos-abiertos-viz" # the subpath of your site, e.g. "/blog".
 # Github and twitter are optional:
 minima:
   social_links:
-    twitter: lixed
+    twitter: lixred
     github: felixlapalma
 
 # Set this to true to get LaTeX math equation support
