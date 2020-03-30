@@ -12,8 +12,7 @@ Repositorio para dejar análisis sobre datos abiertos de diferentes entidades
 
 ## Análisis
 
--Taxis y Remises de la Ciudad de Córdoba
+- Taxis y Remises de la Ciudad de Córdoba
+- Sueldos Funcionarios Municipales (Municipalidad de Córdoba) (WIP-migration)
 
-## WIP
 
--Sueldos Funcionarios Municipales (Municipalidad de Córdoba) (WIP-migration)
