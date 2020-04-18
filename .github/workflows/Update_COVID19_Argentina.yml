@@ -4,7 +4,7 @@ env:
   REQ_PIP:  https://raw.githubusercontent.com/felixlapalma/covid19-argentina-viz/master/requirements.txt
 on:
   schedule:
-    - cron: '30 9 */2 * *'
+    - cron: '0 19 * * *'
 jobs:
   chartUpdate:
     runs-on: ubuntu-latest
