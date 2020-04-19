@@ -1,10 +1,8 @@
 
 name: Update_COVID19_Argentina
-env:
-  REQ_PIP:  https://raw.githubusercontent.com/felixlapalma/covid19-argentina-viz/master/requirements.txt
 on:
   schedule:
-    - cron: '0 19 * * *'
+    - cron: '20 19 * * *'
 jobs:
   chartUpdate:
     runs-on: ubuntu-latest
@@ -14,10 +12,14 @@ jobs:
       uses: actions/setup-python@v1
       with:
         python-version: '3.6'
+
+    - name: get dependencies
+      run: wget https://raw.githubusercontent.com/felixlapalma/covid19-argentina-viz/master/requirements.txt
+    
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install -r ${{ REQ_PIP }}
+        pip install -r ./requirements.txt
     - name: Update Covid Charts 
       run: jupyter nbconvert --to notebook --inplace --execute _notebooks/2020-03-18-argentina_covid19_viz.ipynb
 
