@@ -15,5 +15,5 @@ Repositorio para dejar análisis sobre datos abiertos de diferentes entidades
 - Taxis y Remises de la Ciudad de Córdoba
 - Sueldos Funcionarios Municipales (Municipalidad de Córdoba)
 - Demanda de Potencia de la Republica Argentina (cammesa)
-
+- Incendios en Villa Albertina
 
